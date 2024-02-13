@@ -6,12 +6,18 @@
 body {
     margin: 20px;
     font-family: Arial, sans-serif;
-    position: relative; right:30px
+
+    h1 {
+        text-align: center;
+    }
 }
 
 
-p, a, li {
+p,
+a,
+li {
     line-height: 1.5em;
     font-size: 1.1em;
-    position: relative; right:30px
+    position: relative;
+    right: 30px
 }
