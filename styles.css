@@ -6,8 +6,9 @@
 body {
     margin: 20px;
     font-family: Arial, sans-serif;
-    
+    position: relative; right:30px
 }
+
 
 p, a, li {
     line-height: 1.5em;
