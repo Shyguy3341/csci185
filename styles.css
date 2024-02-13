@@ -6,11 +6,9 @@
 body {
     margin: 20px;
     font-family: Arial, sans-serif;
-    color:aqua
+   
 
-    h1,h2,a {
-        text-align:right;
-    }
+    
 }
 
 
@@ -19,6 +17,8 @@ a,
 li {
     line-height: 1.5em;
     font-size: 1.1em;
-    position: relative;
-    right: 30px
+    h1,h2,a {
+        text-align:right;
+    }
+    color:aqua
 }
