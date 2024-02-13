@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     font-family: Arial, sans-serif;
-   
+   h1,h2,a{color:black;font-size: 30px;text-align: center;}
 
     
 }
@@ -17,8 +17,5 @@ a,
 li {
     line-height: 1.5em;
     font-size: 1.1em;
-    h1,h2,a {
-        text-align:right;
-    }
-    color:aqua
+   
 }
