@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: #b4cded;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 40px;
+}
+
+nav {
+    text-align: center;
+    background-color: black;
+    padding-bottom: 30px;
+
+    
+
+}
+
+a {
+    color: white;
+}
+img{
+margin-right: 30px; width: 350px;
+}
+
+section {
+    text-align: center;
+    height: auto;
+    max-width: 130%;
+    padding: 100px;
+
+}
+
+
+footer {
+    background-color: white;
+}
