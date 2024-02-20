@@ -2,31 +2,9 @@
 * {
     box-sizing: border-box;
 }
-
-body {
-    margin: 0px;
-    font-family: Arial, sans-serif;
-    border-style: dashed;
-
-    h1,
-    h2,
-    a,
-    {
-    color: black;
-    font-size: 30px;
-    text-align: center;
-}
-
-
-
-
-}
-
-
-p,
-a,
-li {
-    line-height: 1.5em;
-    font-size: 1.1em;
-
-}
+body{background-color: black;}
+header{text-align: center;color: aliceblue;}
+Main{text-align: center;
+font: 1em sans-serif;color: aliceblue;}
+h1,h2,a{text-decoration: solid;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: antiquewhite;}
