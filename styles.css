@@ -8,3 +8,14 @@ Main{text-align: center;
 font: 1em sans-serif;color: aliceblue;}
 h1,h2,a{text-decoration: solid;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: antiquewhite;}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr);}
+
+.title{
+    grid-column: 1/3;
+
+}
+.
