@@ -1,0 +1,164 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    @import url();
+    
+}
+body{
+    background-image: url();
+    margin: 1vw;
+    background-color: black;
+}
+
+.layout{
+    display: grid;
+    border: 4px solid black;
+    min-height: 100vh;
+    max-height: 100vh;
+    grid-template-columns: repeat(10,  1fr);
+    grid-template-rows: repeat(10, 1fr);
+    
+    
+
+    
+    
+}
+header{
+min-width:fit-content;
+display: grid;
+border: 1px solid black;
+grid-column: 2/11;
+grid-row: 1/3;
+background-image: url("./catche/backgroundh.jpg");
+background-size: cover;
+background-position: center;
+justify-items: center;
+align-items: center;
+
+}
+.logo{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: black;
+    background-image: url("./catche/logo.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    display: grid;
+    
+    grid-column: 1/2;
+    grid-row: 3/10;
+    background-image: url(./catche/sidebarbackground.jpg);
+    
+}
+main{
+    display: grid;
+    grid-column: 2/11;
+    grid-row: 3/10;
+    
+    background-image: url(./catche/sidebarbackground.jpg);
+    object-fit: cover;
+    
+
+}
+main>p{
+   text-align: center;
+   margin-top: 15px;
+   font-weight: bold;
+   font-size: 30px;
+}
+main>aside{
+   display: grid;
+    grid-auto-flow: column;
+    background-color: gray;
+    border: 1px solid black;
+   
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    object-fit: contain;
+    overflow-x: scroll;
+}
+
+footer{
+    border: 1px solid black;
+    grid-row: 10/11;
+    grid-column: 1/11;
+    text-align: center;
+    font-weight: bold;
+background-image: url(./catche/footeralt.jpg);
+color: white;
+}
+footer>p{
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: 'Tangerine';
+    justify-content: center;
+    justify-items: center;
+}
+
+nav>button {
+  align-items:center;
+  color: white;
+  margin: 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: 'Bebas+Neue&display=swap';
+  background-image: url(./catche/button.png);
+  font-weight: bold;
+  font-size: 25px;
+  
+
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    
+  
+}
+
+#imgbox{
+    border: 5px solid black;
+    margin: 15px;
+    
+
+
+    
+    
+}
+#imgbox>#the_image{
+    object-fit: cover;
+}
+#the_image{
+   min-width: 100%;
+   min-height: 100%;
+}
+@media only screen and (max-width:850px){
+.layout{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+    margin: 10px;
+    max-height: 100vh;
+    
+    
+}
+.logo{
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    
+
+}
+}
