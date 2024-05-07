@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel-test</Carousel-test></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="carousel.js" defer></script>
+</head>
+<body>
+    <section class="carousel" aria-label="Photo Carousel">
+        <div class="current-photo">
+            <!-- Replace image here -->
+            <img id="the_image" src="./catche/images 2.jpg " alt="current photo" />
+        </div> 
+        <button class="back" onclick="back()"aria-label="Show previous slide">
+            <img src="./catche/left.png" alt="" />
+        </button>
+        <button class="forward" onclick="forward()" aria-label="Show next slide">
+            <img src="./catche/right.png" alt="" />
+        </button>
+        <p class="caption">Image 1 of 10</p>
+    </section>
+    
+</body>
+</html>
