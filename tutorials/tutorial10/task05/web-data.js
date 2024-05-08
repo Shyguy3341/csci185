@@ -15,8 +15,20 @@ async function showSong() {
     //     <p>Bob Dylan</p>
     //     <audio controls src="https://p.scdn.co/mp3-preview/669fd8752..."></audio>
     // </section>
+
+    const snippet = `<section class="song">
+    <h2>Blowin' in the Wind</h2>
+    <img src="https://i.scdn.co/image/ab67616d0000b2737d214af8499aa95ad220f573">
+    <p>Bob Dylan</p>
+    <audio controls src="https://p.scdn.co/mp3-preview/669fd8752..."></audio>
+</section>`;
+
+    const container = document.querySelector('#output_container');
+    container.innerHTML = snippet;
 }
 
 function clearContainer() {
     containerEl.innerHTML = "";
 }
+
+
